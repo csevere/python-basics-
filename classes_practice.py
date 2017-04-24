@@ -138,7 +138,7 @@ class Vehicle(object):
         self.model = model
         self.year = year
 
-    def print_info(self, year, make, model):
+    def print_info(self, year, make, model): #added method print_info
         print  "Car info: %s %s %s " % (car.year, car.make, car.model)
 
 car = Vehicle('Honda', 'Civic', '2012')
